@@ -1,0 +1,24 @@
+{
+  "sip": 16,
+  "name": "Iron Shield 2",
+  "image": "ipfs://QmbKnic1KWr1fupLGVwX7vCK8XrmZufdyY5xs5xAkjPund/27.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "Shield"
+    },
+    {
+      "trait_type": "level",
+      "display_type": "number",
+      "value": 2
+    },
+    {
+      "trait_type": "element",
+      "value": "Iron"
+    }
+  ],
+  "properties": {
+    "image_in_game": "ipfs://QmbKnic1KWr1fupLGVwX7vCK8XrmZufdyY5xs5xAkjPund/27.png",
+    "collection": "Base_Game_SFTs"
+  }
+}

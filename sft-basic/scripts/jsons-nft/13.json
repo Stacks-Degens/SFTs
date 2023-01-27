@@ -1,0 +1,24 @@
+{
+  "sip": 16,
+  "name": "Enhanced Sword 3",
+  "image": "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/13.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "Sword"
+    },
+    {
+      "trait_type": "level",
+      "display_type": "number",
+      "value": 3
+    },
+    {
+      "trait_type": "element",
+      "value": "Enhanced"
+    }
+  ],
+  "properties": {
+      "image_in_game":  "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/13.png",
+      "collection":  "Base_Game_SFTs"
+  }
+}

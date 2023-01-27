@@ -1,0 +1,24 @@
+{
+  "sip": 16,
+  "name": "Enhanced Armor 2",
+  "image": "ipfs://QmbKnic1KWr1fupLGVwX7vCK8XrmZufdyY5xs5xAkjPund/21.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "Armor"
+    },
+    {
+      "trait_type": "level",
+      "display_type": "number",
+      "value": 2
+    },
+    {
+      "trait_type": "element",
+      "value": "Enhanced"
+    }
+  ],
+  "properties": {
+    "image_in_game": "ipfs://QmbKnic1KWr1fupLGVwX7vCK8XrmZufdyY5xs5xAkjPund/21.png",
+    "collection": "Base_Game_SFTs"
+  }
+}

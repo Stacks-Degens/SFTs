@@ -1,0 +1,24 @@
+{
+  "sip": 16,
+  "name": "Wooden Shoes 1",
+  "image": "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/41.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "Shoes"
+    },
+    {
+      "trait_type": "level",
+      "display_type": "number",
+      "value": 1
+    },
+    {
+      "trait_type": "element",
+      "value": "Wooden"
+    }
+  ],
+  "properties": {
+      "image_in_game":  "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/41.png",
+      "collection":  "Base_Game_SFTs"
+  }
+}

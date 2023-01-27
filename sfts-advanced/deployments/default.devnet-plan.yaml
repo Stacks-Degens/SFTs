@@ -1,0 +1,53 @@
+---
+id: 0
+name: Devnet deployment
+network: devnet
+stacks-node: "http://localhost:20443"
+bitcoin-node: "http://devnet:devnet@localhost:18443"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: sip013-semi-fungible-token-trait
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 9620
+            path: "contracts\\sip013-semi-fungible-token-trait.clar"
+            anchor-block-only: true
+            clarity-version: 1
+        - contract-publish:
+            contract-name: sip013-transfer-many-trait
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 4010
+            path: "contracts\\sip013-transfer-many-trait.clar"
+            anchor-block-only: true
+            clarity-version: 1
+        - contract-publish:
+            contract-name: collection-1
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 91880
+            path: "contracts\\collection-1.clar"
+            anchor-block-only: true
+            clarity-version: 1
+        - contract-publish:
+            contract-name: items
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 175020
+            path: "contracts\\items.clar"
+            anchor-block-only: true
+            clarity-version: 1
+        - contract-publish:
+            contract-name: resources
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 83190
+            path: "contracts\\resources.clar"
+            anchor-block-only: true
+            clarity-version: 1
+        - contract-publish:
+            contract-name: main-sc
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 348420
+            path: "contracts\\main-sc.clar"
+            anchor-block-only: true
+            clarity-version: 1
+      epoch: "2.0"

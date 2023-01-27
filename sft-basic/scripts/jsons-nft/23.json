@@ -1,0 +1,24 @@
+{
+  "sip": 16,
+  "name": "Wooden Shield 1",
+  "image": "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/23.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "Shield"
+    },
+    {
+      "trait_type": "level",
+      "display_type": "number",
+      "value": 1
+    },
+    {
+      "trait_type": "element",
+      "value": "Wooden"
+    }
+  ],
+  "properties": {
+      "image_in_game":  "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/23.png",
+      "collection":  "Base_Game_SFTs"
+  }
+}

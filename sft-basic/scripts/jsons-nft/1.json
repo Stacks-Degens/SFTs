@@ -1,0 +1,15 @@
+{
+  "sip": 16,
+  "name": "Gold",
+  "image": "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/1.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "Resource"
+    }
+  ],
+  "properties": {
+    "image_in_game": "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/1.png",
+    "collection": "Base_Game_SFTs"
+  }
+}

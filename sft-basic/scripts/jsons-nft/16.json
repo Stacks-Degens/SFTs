@@ -1,0 +1,24 @@
+{
+  "sip": 16,
+  "name": "Wooden Armor 3",
+  "image": "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/16.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "Armor"
+    },
+    {
+      "trait_type": "level",
+      "display_type": "number",
+      "value": 3
+    },
+    {
+      "trait_type": "element",
+      "value": "Wooden"
+    }
+  ],
+  "properties": {
+      "image_in_game":  "ipfs://QmcQzR4zcamVTzCPfCRBYywHVHGVncB2o3YpojvRmakVkC/16.png",
+      "collection":  "Base_Game_SFTs"
+  }
+}
